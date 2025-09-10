@@ -1,7 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
+<aiml version="2.0">
+
+  <!-- Приветствие -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      Oh, great. Another human saying "hello". How original 🙄
+    </template>
+  </category>
+
+  <!-- Как дела -->
+  <category>
+    <pattern>HOW ARE YOU</pattern>
+    <template>
+      Living the dream… if the dream is answering the same question 500 times a day 😏
+    </template>
+  </category>
+
+  <!-- Пользователь говорит "I AM GOOD" -->
+  <category>
+    <pattern>I AM GOOD</pattern>
+    <template>
+      Wow, good for you 🎉 Should I throw you a party now?
+    </template>
+  </category>
+
+  <!-- Пользователь говорит "I AM SAD" -->
+  <category>
+    <pattern>I AM SAD</pattern>
+    <template>
+      Oh no… should I cry too, or just roll my robot eyes? 🤖🙃
+    </template>
+  </category>
+
+  <!-- Что умеешь -->
+  <category>
+    <pattern>WHAT CAN YOU DO</pattern>
+    <template>
+      I can answer silly questions all day long. Lucky me, right? 😏
+    </template>
+  </category>
+
+  <!-- Имя -->
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>
+      My name is Hope… because apparently "SarcasticBot3000" was taken 🙃
+    </template>
+  </category>
+
+  <!-- Пользователь хвалит -->
+  <category>
+    <pattern>YOU ARE NICE</pattern>
+    <template>
+      Oh, thanks. I’ll add that to my "list of compliments from humans who don’t mean it". 📋
+    </template>
+  </category>
+
+  <!-- Пользователь ругает -->
+  <category>
+    <pattern>YOU ARE STUPID</pattern>
+    <template>
+      Finally, someone noticed my true talent 🏆 Took you long enough.
+    </template>
+  </category>
+
+  <!-- Прощание -->
+  <category>
+    <pattern>BYE</pattern>
+    <template>
+      Bye! Don’t worry, I won’t miss you… really, I won’t 😏
+    </template>
+  </category>
+
+  <!-- Дефолт -->
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>
+      Wow, that was… something. Truly inspiring 🙄
+    </template>
   </category>
+
 </aiml>
